@@ -1,0 +1,463 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	.body1
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp0.meituan.net%2Fdpgroup%2F5de80fb91a776801844eb77f3d9ab9d21204054.gif&refer=http%3A%2F%2Fp0.meituan.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671300178&t=daad880d2058b4f1f237f1f74f348432");
+		background-size:cover;
+	}
+
+
+	.body2
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg3.doubanio.com%2Fview%2Fnote%2Fraw%2Fpublic%2Fp58669373.jpg&refer=http%3A%2F%2Fimg3.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671300650&t=e36accfcc0b8b6279bec0bae5f88dc2f");
+		background-size: cover;
+	}
+
+
+	.body3
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://tukuimg.bdstatic.com/scrop/2bf6f68da174c2cef63efef64b12d74f.gif");
+		background-size: cover;
+	}
+
+
+	.body4
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://img.zcool.cn/community/018f5c5a2aaa02a80120ba38165890.jpg@1280w_1l_2o_100sh.jpg");
+		background-size: cover;
+	}
+
+
+	.body5
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180111%2Fb87ef6042663430190ade9face8d6dcb.gif&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671301032&t=0345eef453da2b0a793eff00517d7d32");
+		background-size: cover;
+	}
+	
+
+	.body6
+	{
+		margin: 100px;
+		padding: 0px;
+		background: #ae8a1f;
+		font-family: 'Questrial', sans-serif;
+		font-size: 15pt;
+		color: rgba(0,0,0,.6);
+		background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2F15763307.s21i.faiusr.com%2F3%2FABUIABADGAAgkfDa7QUoqMb29gIw_Ao4ygY%21500x500.gif&refer=http%3A%2F%2F15763307.s21i.faiusr.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1671301032&t=a2b2ae83363993c3c97fc6f6e5774b7f");
+		background-size: cover;
+	}
+	
+	.c1{color: #000;
+		font-weight: bold;
+	} 
+	
+	h1{
+        color: #805e15;
+	}
+
+    h2{
+		color: #805e15;
+	}
+
+	h3{
+		color: #805e15;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+	
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+
+	.container
+	{
+		width: 1200px;
+		overflow: hidden;
+	}
+	
+
+
+
+.container {
+	max-width: 1200px;
+	margin: 10 auto;
+  }
+  
+  .nav {
+	position: fixed;
+	background-color: rgb(113, 61, 18);
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: 999;
+	
+  }
+  
+  .nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .nav ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+	letter-spacing:px
+	
+  }
+  
+  .nav a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 15px 20px;
+	transition: all 0.3s ease-in-out;
+	font-size:24px;
+	
+  }
+  
+  .nav.active {
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav.active a {
+	color: rgb(255, 255, 255);
+  }
+  
+  .nav.active .container {
+	padding: 10px 0;
+  }
+  
+  .nav a.current,
+  .nav a:hover {
+	color: #000000;
+	font-weight: bold;
+  }
+	
+
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.8em 2em;
+		background: #7d4c11;
+		line-height: 1.8em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 1em;
+		color: #FFF;
+		border-radius: 20px;
+	}
+
+
+
+	
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #8DCB89;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+	
+
+
+
+
+	#header-wrapper
+	{
+		overflow: hidden;
+		background-image: url("");
+		background-size:160px 160px;
+	    background-repeat:no-repeat;
+		background-position:0px 60px ;
+		/*background: #C73399 url(images/overlay.png) repeat;*/
+	}
+
+	#header
+	{
+		text-align: center;
+	}
+
+
+
+
+
+	* {box-sizing:border-box}
+	body {font-family: Verdana,sans-serif;}
+	.mySlides {display:none}
+	/* 幻灯片容器 */
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	  border-color:#7d4c11;
+	  border: 3px;
+	}
+	
+	/* 下一张 & 上一张 按钮 */
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  margin-top: -22px;
+	  padding: 16px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	}
+	
+	/* 定位 "上一张" 按钮靠右 */
+	.prev {
+		left: 0;
+		border-radius: 3px 0 0 3px;
+	  }
+	/* 定位 "下一张" 按钮靠右 */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+	
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+	
+	/* 标题文本 */
+	.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+	
+	/* 数字文本 (1/3 等) */
+	.numbertext {
+	  color: #000000;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+	
+	/* 标记符号 */
+	.dot {
+	  cursor:pointer;
+	  height: 13px;
+	  width: 13px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+	
+	
+	
+	/* 淡出动画 */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+	
+	@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+	
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+	
+	.img1 {
+	text-align: center;
+	
+	}
+
+
+
+
+
+
+	
+
+	#logo
+	{
+		padding: 8em 0em 3em 2em;
+	}
+	
+	#logo h1
+	{
+		padding: 0.20em 0.9em;
+		font-size: 2.5em;
+		text-align: center;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	
+
+
+
+
+	.wrapper
+	{
+		overflow: auto;
+		background-color: #ffffff;
+		opacity:0.94;
+        filter:alpha(opacity=40); 
+		border-radius: 8%;
+	}
+
+	
+
+
+
+	
+
+	#welcome
+	{
+		overflow: auto;
+		width: 1100px;
+		padding: 6em 100px 0em 100px;
+	}
+	
+	
+	
+
+
+	#three-column
+	{
+		overflow: hidden;
+		margin-top: 5em;
+		padding-top: 1em;
+		border-top: 1px solid rgba(0,0,0,0.2);
+		text-align: left;
+	}
+	
+	#three-column h2
+	{
+		margin: 1em 0em;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	
+	
+	#three-column #tbox1
+	{
+		float: left;
+		width: 1200px;
+		padding: 80px 100px 50px 100px;
+	}
+	
+	
+	#three-column #tbox2
+	{
+		float: left;
+		width: 1200px;
+		padding: 80px 100px 50px 100px;
+	}
+	
+
+	#three-column #tbox3
+	{
+		float: left;
+		width: 1200px;
+		padding: 80px 100px 50px 100px;
+	}
+
+
+
+.footer2 { 
+position:sticky; 
+filter:alpha(opacity=40);
+opacity:0.5;
+left: 10px; 
+bottom: 5px; 
+width: 100%; 
+background-color: rgb(150, 138, 125); 
+color: white;
+ text-align: center; 
+ font-size: 20pt;
+ border-radius:80px;
+} 
+
+.button3 {
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #c55e10;
+	padding: 20px 20px 20px 
+  }
+  
+
+
+
+
+  
+ 
